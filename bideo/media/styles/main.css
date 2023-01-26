@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto+Condensed:wght@300&display=swap');
 body{
-    background-image: linear-gradient(rgb(145, 174, 157), rgb(168, 143, 158));
+    background-color: rgb(69, 185, 232);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -13,7 +13,24 @@ body{
     text-align: center;
     color: rgb(214, 207, 207);
     border-radius: 10px;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Bungee Shade", sans-serif;
+    padding: 1%;
+    border: solid rgb(171, 201, 224);
+    -moz-box-shadow: 4px 4px 4px 4px rgb(17,27,52);
+	-webkit-box-shadow: 4px 4px 4px 4px rgb(17,27,52);
+	box-shadow: 4px 4px 4px 4px rgb(17,27,52);
+}
+
+.info p {
+    /* background-color: #222121b4; */
+    display: inline;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.info h1 {
+    display: inline;
+    /* background-color: #222121b4; */
 }
 
 .form_area{
@@ -27,19 +44,22 @@ body{
 	height: 35em;
 	margin: auto;
 	margin-top: 3em;
-	border: solid RGB(139, 155, 167);
+	border: solid rgb(171, 201, 224);
 	border-radius: 0.5em;
-	background-image: linear-gradient(RGB(143, 168, 153), RGB(168, 143, 158));
+	/* background-image: linear-gradient(RGB(143, 168, 153), RGB(168, 143, 158)); */
+    background-image: url(/media/images/background.jpg)
 }
 .box-shadow {
-	-moz-box-shadow: 4px 4px 4px 4px #808080;
-	-webkit-box-shadow: 4px 4px 4px 4px #808080;
-	box-shadow: 4px 4px 4px 4px #808080;
+	-moz-box-shadow: 4px 4px 4px 4px rgb(17,27,52);
+	-webkit-box-shadow: 4px 4px 4px 4px rgb(17,27,52);
+	box-shadow: 4px 4px 4px 4px rgb(17,27,52);
 }
 .box-login h1 {
 	text-align: center;
 	font-size: 3em;
-	font-family: "Bungee Shade", sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+	
+    color: white;
 }
 .login-form {
 	height: 50%;
