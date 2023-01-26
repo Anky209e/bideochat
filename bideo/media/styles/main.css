@@ -16,7 +16,8 @@ body{
 
 .info{
     /* backdrop-filter: blur(5px); */
-    background-image: url(/media/images/background.png);
+    /* background-image: url(/media/images/background.png);*/
+    background-color: rgb(17,27,52);
     text-align: center;
     color: rgb(214, 207, 207);
     border-radius: 10px;
@@ -50,7 +51,6 @@ body{
 
 
 .box-login {
-    backdrop-filter: blur(5px);
 	width: 40em;
 	height: 35em;
 	margin: auto;
@@ -58,7 +58,9 @@ body{
 	border: solid rgb(171, 201, 224);
 	border-radius: 0.5em;
 	/* background-image: linear-gradient(RGB(143, 168, 153), RGB(168, 143, 158)); */
-    background-image: url(/media/images/background.png)
+    /* background-image: url(/media/images/background.png)
+     */
+    background-color: rgb(17,27,52);
 }
 .box-shadow {
 	-moz-box-shadow: 4px 4px 4px 4px rgb(17,27,52);
@@ -127,11 +129,11 @@ button {
 	border-radius: 5px;
 	border-color: rgb(181, 200, 214);
 	color: white;
-	background: rgb(36, 203, 81);
+	background: skyblue;
     text-align: center;
     
 }
 button:hover {
 	box-shadow: 4px 4px 4px 4px rgb(17,27,52);
-    background-color: skyblue;
+    background-color: rgb(78, 221, 78);
 }
